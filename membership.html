@@ -4,7 +4,8 @@
     <title>Central Florida Railway Historical Society Membership Information</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" rel="stylesheet" title="no title">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
   </head>
@@ -21,18 +22,18 @@
         </div>
       </div>
     </div>
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    <nav class="navbar sticky-top navbar-toggleable-md">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">CFRHS</a>
+      <span class="navbar-text">&nbsp;</span>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About Us
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -45,12 +46,24 @@
             <a class="nav-link" href="museum.html">Museum</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="shop.html">Gift Shop</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="newsletter.html">Newsletter</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="links.html">Links</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
+        <div class="navbar-brand my-auto">
+          <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
       </div>
     </nav>
     <div class="container">
@@ -234,20 +247,51 @@
     <footer>
       <div class="container-fluid footer-upper">
         <div class="row">
-          <div class="col-md-6">
-
-
+          <div class="col-md-4">
+            <p class="footer-text">
+              Central Florida Railway
+              Historical Society, Inc.<br>
+              101 South Boyd Street<br>
+              Winter Garden, FL 34787<br>
+            </p>
+            <p class="footer-text">
+              P.O. Box 770567<br>
+              Winter Garden, FL 34777-0567<br>
+            </p>
+            <p class="footer-text">
+              (407) 656-0559<br>
+            </p>
+            <p class="footer-text">
+              <a href="http://www.cfrhs.org/mailto:info@cfrhs.org?subject=Email for information from www.cfrhs.orginfo@cfrhs.org">info@cfrhs.org</a>
+            </p>
+            <a href="https://www.facebook.com/CentralFloridaRailroadMuseum/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
           </div>
-          <div class="col-md-3 text-center">
+          <div class="col-md-2">
+            <p class="footer-text">
+              <a href="index.html">Home</a><br>
+              <a href="history.html">Our History</a><br>
+              <a href="board.html">Board of Directors</a><br>
+              <a href="membership.html">Society Membership</a><br>
+              <a href="museum.html">Museum</a><br>
+              <a href="gallery.html">Gallery</a><br>
+              <a href="shop.html">Gift Shop</a><br>
+              <a href="newsletter.html">Newsletter</a><br>
+              <a href="links.html">Links</a><br>
+              <a href="contact.html">Contact</a><br>
+            </p>
+          </div>
+          <div class="col-md-3 text-center my-auto">
             <a href="http://www.wghf.org/" target="_blank">
               <img src="./images/WGHFlogo.png" alt="Winter Garden Heritage Foundation" style="width: 190px;">
-              <p>Affiliated with the Winter Garden Heritage Foundation</p>
+              <br><br>
+              <p class="footer-text">Affiliated with the Winter Garden Heritage Foundation</p>
             </a>
           </div>
-          <div class="col-md-3 text-center">
+          <div class="col-md-3 text-center my-auto">
             <a href="http://www.atrrm.org/" target="_blank">
               <img src="./images/HeritageRailAllianceLogo.png" alt="Heritage Rail Alliance" style="width: 210px;">
-              <p>Member of HeritageRail Alliance</p>
+              <br><br>
+              <p class="footer-text">Member of HeritageRail Alliance</p>
             </a>
           </div>
         </div>
@@ -255,8 +299,8 @@
       <div class="container-fluid footer-lower">
         <div class="row navbar align-items-center ">
           <div>
-          <p class="my-auto">
-            © 2017 Central Florida Railway Historical Society, Inc. | Website Designed & Developed by <a href="http://rickmurdock.com/" style="color: inherit;">Rick Murdock</a> 
+          <p class="footer-text-lower my-auto">
+            © 2017 Central Florida Railway Historical Society, Inc. &nbsp;&nbsp;<i class="fa fa-train fa" aria-hidden="true"></i>&nbsp;&nbsp; Website Designed & Developed by <a href="http://rickmurdock.com/" style="color: inherit;"><b><i>Rick Murdock<i></b></a> 
           </p>
           </div>
         </div>
