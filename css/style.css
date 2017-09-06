@@ -1,0 +1,181 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/*.carousel-item img {
+  width: auto;
+  height: 600px;
+  max-height: 600px;
+}*/
+
+/*.carousel-item {
+  text-align: center;
+}*/
+
+
+/*.logo {
+  float: left;
+}*/
+
+.title {
+  color: #954838;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px lightgray;
+}
+
+.nav-link {
+  /*color: #954838;*/
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightgray;
+  transform: scale(1.1);
+}
+
+.active {
+  color: yellow;
+}
+
+nav {
+  box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
+  background-color: #954838;
+}
+
+/*.icon-bar {
+  background-color: red;
+}*/
+.navbar-toggler {
+  /*color: white;
+  background-color: lightgray;*/
+  border-color: white;
+  
+}
+
+/*.navbar-toggler-icon {
+  color: white;
+  background-color: green;
+}*/
+
+.fa-facebook,
+.fa-bars {
+  color: white;
+  padding: 4px;
+}
+
+.fa-facebook:hover {
+  transform: scale(1.4);
+}
+
+.fa-facebook-official {
+  color: #3B5998;
+}
+
+.fa-facebook-official:hover {
+  transform: scale(1.2);
+}
+
+/*#left {
+  position: fixed;
+      top: 30;
+    bottom: 0;
+}*/
+
+.img-depot {
+  width: 700px;
+}
+.carousel-inner > .item {
+  height: 100vh;
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-height: 600px;
+  width: auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.footer-upper {
+  background-color: lightgray;
+  padding-top: 20px;
+}
+
+.footer-lower {
+  color: white;
+  background-color: #954838;
+  padding: 10px;
+}
+
+.parallax {
+  background-image: url(../images/SteamRun.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  margin: 50px 0 30px;
+}
+
+/*.title-wrapper {
+  width: 100%;
+  background-color: #954838;
+}*/
+
+.page-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.museum-history-title {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 75px;
+  font-weight: 600;
+  color: white;
+  position:relative;
+  top: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.footer-text {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.footer-text,
+.footer-text a:link,
+.footer-text a:visited {
+  color: black;
+}
+
+.footer-text-lower {
+  font-family: 'Open Sans', sans-serif;
+}
