@@ -39,13 +39,20 @@ p {
   text-shadow: 2px 2px 4px lightgray;
 }
 
-.nav-link {
-  /*color: #954838;*/
+.nav-link,
+.dropdown-item,
+.dropdown-toggle {
   color: white;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.dropdown-item:hover {
   color: lightgray;
+  background-color: #954838;
+  transform: scale(0.95);
+}
+
+.nav-link:hover {
   transform: scale(1.1);
 }
 
@@ -57,21 +64,22 @@ nav {
   box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
   background-color: #954838;
 }
-
-/*.icon-bar {
-  background-color: red;
-}*/
-.navbar-toggler {
-  /*color: white;
-  background-color: lightgray;*/
-  border-color: white;
-  
+.dropdown-menu {
+  background-color: #954838;
 }
 
-/*.navbar-toggler-icon {
-  color: white;
-  background-color: green;
-}*/
+.dropdown-toggle:focus {
+  text-decoration: none;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.dropdown:focus,
+#navbarDropdownMenuLink:focus {
+  color: lightgray;
+}
 
 .fa-facebook,
 .fa-bars {
@@ -91,15 +99,10 @@ nav {
   transform: scale(1.2);
 }
 
-/*#left {
-  position: fixed;
-      top: 30;
-    bottom: 0;
-}*/
-
 .img-depot {
   width: 700px;
 }
+
 .carousel-inner > .item {
   height: 100vh;
 }
@@ -109,8 +112,8 @@ nav {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   max-height: 600px;
   width: auto;
 }
@@ -143,25 +146,16 @@ nav {
   margin: 50px 0 30px;
 }
 
-/*.title-wrapper {
-  width: 100%;
-  background-color: #954838;
-}*/
-
 .page-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 45px;
-  font-weight: 600;
-  padding: 20px;
+  font: 600 45px 'Open Sans', sans-serif;
+  padding: 12px;
 }
 
 .museum-history-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 75px;
-  font-weight: 600;
+  font: 600 75px 'Open Sans', sans-serif;
   color: white;
   position:relative;
-  top: 100px;
+  top: 90px;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
 }
